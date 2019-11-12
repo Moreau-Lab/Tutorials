@@ -1,7 +1,4 @@
 ---
-title: "Getting set up with Git and Github"
-author: "Megan Barkdull"
-date: "11/12/2019"
 output: github_document
 ---
 
