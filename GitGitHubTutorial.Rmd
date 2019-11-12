@@ -1,12 +1,24 @@
 ---
-output: github_document
+title: "Intro to Using Git and GitHub"
+output: 
+  github_document:
+    toc: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Setting Up GitHub and Git
+### Making a GitHub account
+Go to github.com and make an account. 
+
+### Connecting to the Moreau Lab Organization 
+Our lab GitHub organization can be found at https://github.com/Moreau-Lab. This is where we keep all of our code, organized into shared repositories, to enable collaboration and ensure reproducibility of our research!
+
+You will need to request to be added to the organization; let Corrie or Megan know what email is associated with your GitHub account and they can send you an invitation to join. 
+
+### Setting Up Git on Your Computer 
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
