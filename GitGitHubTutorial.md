@@ -26,15 +26,16 @@ Git, the version control tool that underlies GitHub.
 First, install Git on your computer.
 
 Next, you’ll need to tell Git who you are. We will do this using the
-following commands in
-    Terminal:
+following commands in Terminal:
 
-    # Give Git your username and the email you used to sign up for GitHub:
-        git config --global user.name 'YOURUSERNAME'
-        git config --global user.email 'YOURGITHUBEMAIL'
-    
-    # Now check that everything was input correctly.
-        git config --global --list
+Give Git your username and the email you used to sign up for GitHub:
+
+    git config --global user.name 'YOURUSERNAME'
+    git config --global user.email 'YOURGITHUBEMAIL'
+
+Now check that everything was input correctly.
+
+    git config --global --list
 
 Now that Git knows who you are, let’s practice pushing from GitHub to
 your computer and back, using Terminal. The vast majority of the time
@@ -47,31 +48,32 @@ with a ReadMe file. Open the repository, and look for the green Clone or
 download button. Click it, and copy the url that appears.
 <img src="images/CopySSH.png" width="400px" />
 
-This is an R Markdown document. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see <http://rmarkdown.rstudio.com>.
+Now, open Terminal again. Let’s clone that repository from GitHub onto
+our local computer:
 
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this:
+    git clone URLTHATYOUCOPIED
 
-``` r
-summary(cars)
-```
+Now let’s navigate into the directory of that repository, and make an
+edit to the ReadMe file.
 
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
+    cd NAMEOFREPOSITORY
+    echo "A line I wrote on my local computer" >> README.md
+    git status
 
-## Including Plots
+Once we’ve made this edit, we can push the new version of our ReadMe
+from our local computer out to GitHub, like this:
 
-You can also embed plots, for example:
+    git add -A
+    git commit -m "A commit from my local computer"
+    git push
 
-![](GitGitHubTutorial_files/figure-gfm/pressure-1.png)<!-- -->
+At this point, you should probably be prompted to enter your GitHub
+username and password in Terminal; go ahead and do so. Then, refresh
+GitHub in your browser, and hopefully the updated ReadMe file will be
+there\!
 
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+## Connecting RStudio to GitHub
+
+Working via Terminal can be annoying and fairly confusing to folks who
+aren’t comfortable with it. Luckily, we can actually use RStudio as our
+tool for pushing files to GitHub. Let’s get that set up.
