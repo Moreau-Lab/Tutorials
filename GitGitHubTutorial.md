@@ -20,6 +20,33 @@ can send you an invitation to join.
 
 ### Setting Up Git on Your Computer
 
+Now that you have a GitHub account, let’s get your computer set up with
+Git, the version control tool that underlies GitHub.
+
+First, install Git on your computer.
+
+Next, you’ll need to tell Git who you are. We will do this using the
+following commands in
+    Terminal:
+
+    # Give Git your username and the email you used to sign up for GitHub:
+        git config --global user.name 'YOURUSERNAME'
+        git config --global user.email 'YOURGITHUBEMAIL'
+    
+    # Now check that everything was input correctly.
+        git config --global --list
+
+Now that Git knows who you are, let’s practice pushing from GitHub to
+your computer and back, using Terminal. The vast majority of the time
+you will not be using Terminal to interact with GitHub, but this is a
+good way to check that everything is set up correctly from the
+beginning.
+
+First, make a new repository with GitHub in your browser; initialize it
+with a ReadMe file. Open the repository, and look for the green Clone or
+download button. Click it, and copy the url that appears.
+<img src="images/CopySSH.png" width="400px" />
+
 This is an R Markdown document. Markdown is a simple formatting syntax
 for authoring HTML, PDF, and MS Word documents. For more details on
 using R Markdown see <http://rmarkdown.rstudio.com>.
