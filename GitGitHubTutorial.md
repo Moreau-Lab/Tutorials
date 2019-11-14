@@ -12,7 +12,7 @@ resources.
 
 ### Making a GitHub account
 
-Go to github.com and make an account.
+Go to [github.com](github.com) and make an account.
 
 ### Connecting to the Moreau Lab Organization
 
@@ -130,6 +130,37 @@ pane of RStudio: <img src="images/GitRStudio.png" width="400px" />
 Decide which files you want to commit (in other words, which files
 you’ve made meaningful changes to since the last time you committed
 them). Check the “Staged” box for these files. Click the “Commit”
-button. Now those changes are committed in Git locally\!
+button. **Be sure to write a meaningful message** in the “Commit
+Message” box; this should describe the nature of the changes you’ve
+made to the file since you last committed it. For example: “I added code
+to generate a PCA plot that depicts the similarity of bacterial
+communities in different ant samples”. **Make it meaningful** so that
+collaborators, and your future self, know what you did and why\!
+
+Now those changes are committed in Git locally\!
 
 #### Push local commits to GitHub
+
+Once you’ve committed something locally, you need to push it to GitHub
+in order for it to be incorporated online and available to collaborators
+(including your future self\!).
+
+First, click the blue “Pull” arrow button in the “Git” tab of RStudio.
+This will make sure your file incorporates any changes a collaborator
+may have made since you last worked with the file. Odds are, nothing
+will happen, especially if no one else is working on the project with
+you, but it is a good habit to get into any.
+
+Next, click the green “Push” arrow button to put your changes to GitHub.
+You can check that this worked by refreshing the file in GitHub in your
+browser.
+
+# You’re good to go\!
+
+Now make all of these steps a normal part of your workflow, every time
+you write and edit code for an analysis. Everything will be kept
+up-to-date, and you’ll be able to find and understand your code when you
+come back to it after a break. Plus, collaborators will be able to
+access it very easily. Yay\!
+
+<img src="images/Workflow.jpg" width="900px" />
