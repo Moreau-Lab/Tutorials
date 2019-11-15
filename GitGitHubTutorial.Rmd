@@ -82,7 +82,7 @@ knitr::include_graphics("images/CopySSH.png")
 Open up RStudio. Start a new project by going to:
 *File > New Project > Version Control > Git*.
 
-In the space for "repository URL", paste the URL that you previously copied. Now click "Create project". 
+In the space for "repository URL", paste the URL that you previously copied. Now click "Create project". Note that if you are trying to reuse the test repository that you used for the above steps, you will need to delete the directory from your computer or you'll get an error in RStudio. 
 
 This new project is 1) a directory, or folder, on your computer; 2) a Git repository on your computer, connected to a GitHub repository in the cloud; and 3) and RStudio Project file. **Because we started the GitHub repository first, then connected an RStudio Project to it**, we are automatically all set up to push and pull files.
 
