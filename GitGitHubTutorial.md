@@ -82,6 +82,15 @@ GitHub in your browser, and hopefully the updated ReadMe file will be
 there. This tells us we have successfully connected Git on our local
 computer to GitHub online\!
 
+#### Cleaning Up
+
+You can go ahead and use Finder or whatever file system navigatory your
+computer uses to find the “Test” folder you created on your computer,
+and delete it. You can also delete the “Test” repository from GitHub.
+Open up the repository on github.com; click Settings, scroll to the very
+bottom, and delete the repository. This will keep everything tidy and
+uncluttered.
+
 ## Connecting RStudio to GitHub
 
 Working via Terminal can be annoying and fairly confusing to folks who
@@ -111,7 +120,10 @@ Open up RStudio. Start a new project by going to: *File \> New Project
 \> Version Control \> Git*.
 
 In the space for “repository URL”, paste the URL that you previously
-copied. Now click “Create project”.
+copied. Now click “Create project”. **Note** that if you are trying to
+reuse the test repository that you used for the above steps, you will
+need to delete the directory from your computer or you’ll get an error
+in RStudio. Follow the clean-up steps described above.
 
 This new project is 1) a directory, or folder, on your computer; 2) a
 Git repository on your computer, connected to a GitHub repository in the
@@ -154,6 +166,11 @@ you, but it is a good habit to get into any.
 Next, click the green “Push” arrow button to put your changes to GitHub.
 You can check that this worked by refreshing the file in GitHub in your
 browser.
+
+#### Clean Up
+
+Like above, you can delete the “Test” repository from your computer and
+from GitHub, keeping everything tidy.
 
 # You’re good to go\!
 
