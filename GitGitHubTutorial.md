@@ -30,7 +30,9 @@ can send you an invitation to join.
 Now that you have a GitHub account, let’s get your computer set up with
 Git, the version control tool that underlies GitHub.
 
-First, install Git on your computer.
+First, install Git on your computer. [This
+link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+should get you set with whatever operating system you are using.
 
 Next, you’ll need to tell Git who you are. We will do this using the
 following commands in Terminal:
