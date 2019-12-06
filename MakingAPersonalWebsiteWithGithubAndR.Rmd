@@ -19,3 +19,5 @@ On your personal [GitHub](github.com), make a new repository that will correspon
 Follow the steps in our "Intro to Using Git and GitHub" tutorial to clone that repository and open it as an RStudio project. 
 
 ## Start 
+
+jacob hi
