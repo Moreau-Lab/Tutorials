@@ -97,3 +97,54 @@ Now we need to take your website and put it online, so that other people can che
 
 Once you've pushed things to Github, you'll be able to see your website at yourusername.github.io (be patient, it takes a few seconds for the changes to load onto Github).
 
+## Adding information and making things look nice:
+
+Your website is built using Rmarkdown, and can also incorporate HTML and CSS. When trying to figure out how to add or format something, doing some googling using those search terms is a good starting point. 
+
+### Adding more info, images, etc. 
+Say you'd like to add some text and an image to your about page. You can do this by adding any file you want to embed to your website directory, and then editing the corresponding `about.Rmd` file:
+
+```
+---
+title: "About Me"
+---
+
+I am a PhD student in the Moreau Lab. 
+
+![](headshot.jpeg)
+```
+
+Once you've made your changes, just run `rmarkdown::render_site()` again to recompile the site. This will produce:
+
+```{r, out.width = "400px", echo = FALSE}
+knitr::include_graphics("images/AddedHeadshot.png")
+```
+
+### Adding additional pages:
+To add more pages, you need to do three things:
+
+1. Edit the `_site.yml` file so that your new pages are listed:
+```
+name: "YOUR-WEBSITE-NAME"
+output_dir: "."
+navbar:
+  title: "Your website name"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
+    - text: "Contact"
+      href: contact.html
+```
+2. Create `.Rmd` files that correspond to the `.html` file that you specified. So in this case, to add my contact page, I would open terminal, change directories to my website directory, and create `contact.Rmd` by executing `touch contact.Rmd`. 
+3. Fill out the new `.Rmd` page with the information you'd like to add. 
+```
+---
+title: "Contact"
+---
+
+Here is my email:
+```
+
+### Formatting with CSS:
