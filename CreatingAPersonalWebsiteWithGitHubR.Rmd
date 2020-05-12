@@ -10,4 +10,4 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Creating a respository to host the website
+## Getting set up with Git, Github, and Rstudio:
