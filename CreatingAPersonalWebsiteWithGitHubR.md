@@ -182,8 +182,8 @@ To add more pages, you need to do three things:
 ### Formatting with CSS:
 
 One way to apply formatting to your website is with CSS. For example,
-[Megan](mbarkdull.github.io) used CSS to change the background colors
-and fonts on her website. To do this, you’ll want to:
+[Megan](https://mbarkdull.github.io) used CSS to change the background
+colors and fonts on her website. To do this, you’ll want to:
 
 1.  Create a CSS file in terminal using `touch NAMEOFFILE.css`
 2.  Open that file in RStudio, and add whatever CSS code you would like
