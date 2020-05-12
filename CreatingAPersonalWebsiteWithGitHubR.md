@@ -1,4 +1,4 @@
 Making a Personal Website with Github and R
 ================
 
-## Creating a respository to host the website
+## Getting set up with Git, Github, and Rstudio:
