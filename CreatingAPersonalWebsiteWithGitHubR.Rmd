@@ -1,4 +1,5 @@
 ---
+
 title: "Creating a Personal Website with Github and R"
 output: 
   github_document:
@@ -10,4 +11,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
 # Making a Personal Website with GitHub and R
+
