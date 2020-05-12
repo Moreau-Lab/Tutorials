@@ -1,0 +1,12 @@
+---
+title: "Creating a Personal Website with Rmarkdown and Github Pages"
+output: 
+  github_document:
+    toc: true
+    toc_depth: 5
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
