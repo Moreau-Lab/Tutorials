@@ -212,3 +212,11 @@ colors and fonts on her website. To do this, you’ll want to:
   - You can apply multiple CSS files by enclosing them all in square
     brackets and enclosing each one in quotes (`["CSS1.css",
     "CSS2.css"]`).
+
+## Getting inspiration from one another:
+
+A good way to get inspired and learn new things you can do with your
+website is to look at what other folks have done. Moreau lab members’
+website repositories can be found here:
+
+[Megan’s repository](https://github.com/mbarkdull/mbarkdull.github.io)
