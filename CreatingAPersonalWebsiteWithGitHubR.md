@@ -180,3 +180,35 @@ To add more pages, you need to do three things:
     Here is my email:
 
 ### Formatting with CSS:
+
+One way to apply formatting to your website is with CSS. For example,
+[Megan](mbarkdull.github.io) used CSS to change the background colors
+and fonts on her website. To do this, you’ll want to:
+
+1.  Create a CSS file in terminal using `touch NAMEOFFILE.css`
+2.  Open that file in RStudio, and add whatever CSS code you would like
+    to it. For example, to change your background color to a light
+    lavendar, add:
+
+<!-- end list -->
+
+    body {
+      background-color: rgba(225, 219, 229)   /*light muted lavender */;
+    }
+
+3.  Apply the CSS to your website. Inside of the three dashes (`---`)
+    that enclose the title section, add this code:
+
+<!-- end list -->
+
+    output:
+      html_document:
+        css: NAMEOFFILE.css
+
+  - If you add this to your `_site.yml` page, the CSS will be applied to
+    every page in your website.
+  - If you only want to apply it to some pages, then only add that
+    particular CSS file to those pages.
+  - You can apply multiple CSS files by enclosing them all in square
+    brackets and enclosing each one in quotes (`["CSS1.css",
+    "CSS2.css"]`).
