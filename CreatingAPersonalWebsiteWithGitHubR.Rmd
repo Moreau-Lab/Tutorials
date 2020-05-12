@@ -10,6 +10,8 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+This tutorial describes how to create your own personal website with Github and Rmarkdown. It is largely based on this [wonderful tutorial](http://nickstrayer.me/RMarkdown_Sites_tutorial/) by Nick Strayer and Lucy D’Agostino McGowan.
+
 ## Getting set up with Git, Github, and Rstudio:
 To make your website, you'll need to have Git installed on your computer, connected to a Github account, and communicating with RStudio. Follow the [lab tutorial](https://github.com/Moreau-Lab/Tutorials/blob/master/GitGitHubTutorial.md) to get this all set up ahead of time. 
 

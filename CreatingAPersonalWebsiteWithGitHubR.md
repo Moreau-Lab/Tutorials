@@ -1,6 +1,11 @@
 Making a Personal Website with Github and R
 ================
 
+This tutorial describes how to create your own personal website with
+Github and Rmarkdown. It is largely based on this [wonderful
+tutorial](http://nickstrayer.me/RMarkdown_Sites_tutorial/) by Nick
+Strayer and Lucy D’Agostino McGowan.
+
 ## Getting set up with Git, Github, and Rstudio:
 
 To make your website, you’ll need to have Git installed on your
