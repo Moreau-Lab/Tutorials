@@ -24,10 +24,10 @@ page, and click “New Repository”.
 ![](./images/WebsiteRepo.png)
 
 In order to have the cleanest url for your website, you will want to
-name your repository the exact same thing as your Github username (e.g.,
-I named mine "mbarkdull). This will ensure that your website url is
-username.github.io. Be sure to initialize the repository with a ReadMe
-so that you can clone it.
+name your repository the exact same thing as your Github username, plus
+“.github.io” (e.g., I named mine “mbarkdull.github.io”). This will
+ensure that your website url is username.github.io. Be sure to
+initialize the repository with a ReadMe so that you can clone it.
 
 Once your repository is created, click the green Clone or Download
 button, and copy the url to clone your repository.
@@ -51,9 +51,10 @@ Now we are all set up to actually add content to the website\!
 ## Creating Markdown files for your website:
 
 First, make sure that you have the most recent version of rmarkdown
-installed:
+installed, and load it in R:
 
     install.packages("rmarkdown", type = "source")
+    library(rmarkdown)
 
 Let’s create the basic files needed to put a website together. Open
 terminal, and change directories to the directory that corresponds to
@@ -101,12 +102,7 @@ And to `about.Rmd`, add:
 ## Turning everything into a website:
 
 Save all of those files, and now let’s connect everything together to
-form a website. First, go back to terminal and create a simple R script
-file in your website directory:
-
-    touch build_site.R
-
-Now return to RStudio and run the command:
+form a website. Go to RStudio and run the command:
 
     rmarkdown::render_site()
 
@@ -225,3 +221,5 @@ website is to look at what other folks have done. Moreau lab members’
 website repositories can be found here:
 
 [Megan’s repository](https://github.com/mbarkdull/mbarkdull.github.io)
+[Jaime’s
+repository](https://jaimeortiz-david.github.io/jaimeortiz-david/)
