@@ -130,8 +130,8 @@ some googling using those search terms is a good starting point.
 ### Adding more info, images, etc.
 
 Say you’d like to add some text and an image to your about page. You can
-do this by adding any file you want to embed to your website directory,
-and then editing the corresponding `about.Rmd` file:
+do this by adding any file you want to embed *to your website
+directory*, and then editing the corresponding `about.Rmd` file:
 
     ---
     title: "About Me"
@@ -221,5 +221,6 @@ website is to look at what other folks have done. Moreau lab members’
 website repositories can be found here:
 
 [Megan’s repository](https://github.com/mbarkdull/mbarkdull.github.io)
+
 [Jaime’s
 repository](https://jaimeortiz-david.github.io/jaimeortiz-david/)

@@ -101,7 +101,7 @@ Once you've pushed things to Github, you'll be able to see your website at youru
 Your website is built using Rmarkdown, and can also incorporate HTML and CSS. When trying to figure out how to add or format something, doing some googling using those search terms is a good starting point. 
 
 ### Adding more info, images, etc. 
-Say you'd like to add some text and an image to your about page. You can do this by adding any file you want to embed to your website directory, and then editing the corresponding `about.Rmd` file:
+Say you'd like to add some text and an image to your about page. You can do this by adding any file you want to embed *to your website directory*, and then editing the corresponding `about.Rmd` file:
 
 ```
 ---
@@ -171,4 +171,5 @@ output:
 A good way to get inspired and learn new things you can do with your website is to look at what other folks have done. Moreau lab members' website repositories can be found here:
 
 [Megan's repository](https://github.com/mbarkdull/mbarkdull.github.io)
+
 [Jaime's repository](https://jaimeortiz-david.github.io/jaimeortiz-david/)
