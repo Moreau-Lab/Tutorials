@@ -128,7 +128,7 @@ Github).
 
 Your website is built using Rmarkdown, and can also incorporate HTML and
 CSS. When trying to figure out how to add or format something, doing
-some googling using those search terms is a good starting point.
+some Googling using those search terms is a good starting point.
 
 ### Adding more info, images, etc.
 
@@ -192,7 +192,7 @@ colors and fonts on her website. To do this, you’ll want to:
 1.  Create a CSS file in terminal using `touch NAMEOFFILE.css`
 2.  Open that file in RStudio, and add whatever CSS code you would like
     to it. For example, to change your background color to a light
-    lavendar, add:
+    lavender, add:
 
 <!-- end list -->
 
