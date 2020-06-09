@@ -98,6 +98,28 @@ Once you've pushed things to Github, you'll be able to see your website at youru
 
 ## Adding information and making things look nice:
 
+```{r, echo = FALSE, out.width = '65%', fig.align = 'center'}
+library(DiagrammeR)
+grViz("digraph flowchart {
+      # node definitions with substituted label text
+      node [fontname = Helvetica, shape = rectangle]        
+      tab1 [label = '@@1']
+      tab2 [label = '@@2']
+      tab3 [label = '@@3']
+      tab4 [label = '@@4']
+
+      # edge definitions with the node IDs
+      tab1 -> tab2 -> tab3 -> tab4 -> tab1;
+      }
+
+      [1]: 'Make edits, add CSS, images, etc.'
+      [2]: 'Run the command to render\\nyour website and generate\\nthe index.html file'
+      [3]: 'Commit and push your\\nchanges to Github'
+      [4]: 'Changes to your website are live!'
+      ")
+```
+
+
 Your website is built using Rmarkdown, and can also incorporate HTML and CSS. When trying to figure out how to add or format something, doing some googling using those search terms is a good starting point. 
 
 ### Adding more info, images, etc. 
@@ -172,4 +194,4 @@ A good way to get inspired and learn new things you can do with your website is 
 
 [Megan's repository](https://github.com/mbarkdull/mbarkdull.github.io)
 
-[Jaime's repository](https://jaimeortiz-david.github.io/jaimeortiz-david/)
+[Jaime's repository](https://github.com/jaimeortiz-david/jaimeortiz-david.github.io)

@@ -119,9 +119,12 @@ Github](https://github.com/Moreau-Lab/Tutorials/blob/master/GitGitHubTutorial.md
 
 Once you’ve pushed things to Github, you’ll be able to see your website
 at yourusername.github.io (be patient, it takes a few seconds for the
-changes to load onto Github).
+changes to load onto
+Github).
 
 ## Adding information and making things look nice:
+
+<img src="CreatingAPersonalWebsiteWithGitHubR_files/figure-gfm/unnamed-chunk-3-1.png" width="65%" style="display: block; margin: auto;" />
 
 Your website is built using Rmarkdown, and can also incorporate HTML and
 CSS. When trying to figure out how to add or format something, doing
@@ -223,4 +226,4 @@ website repositories can be found here:
 [Megan’s repository](https://github.com/mbarkdull/mbarkdull.github.io)
 
 [Jaime’s
-repository](https://jaimeortiz-david.github.io/jaimeortiz-david/)
+repository](https://github.com/jaimeortiz-david/jaimeortiz-david.github.io)
