@@ -120,7 +120,7 @@ grViz("digraph flowchart {
 ```
 
 
-Your website is built using Rmarkdown, and can also incorporate HTML and CSS. When trying to figure out how to add or format something, doing some googling using those search terms is a good starting point. 
+Your website is built using Rmarkdown, and can also incorporate HTML and CSS. When trying to figure out how to add or format something, doing some Googling using those search terms is a good starting point. 
 
 ### Adding more info, images, etc. 
 Say you'd like to add some text and an image to your about page. You can do this by adding any file you want to embed *to your website directory*, and then editing the corresponding `about.Rmd` file:
@@ -172,7 +172,7 @@ Here is my email:
 One way to apply formatting to your website is with CSS. For example, [Megan](https://mbarkdull.github.io) used CSS to change the background colors and fonts on her website. To do this, you'll want to:
 
 1. Create a CSS file in terminal using `touch NAMEOFFILE.css`
-2. Open that file in RStudio, and add whatever CSS code you would like to it. For example, to change your background color to a light lavendar, add:
+2. Open that file in RStudio, and add whatever CSS code you would like to it. For example, to change your background color to a light lavender, add:
 ```
 body {
   background-color: rgba(225, 219, 229)   /*light muted lavender */;
